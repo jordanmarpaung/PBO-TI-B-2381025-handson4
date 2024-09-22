@@ -7,12 +7,11 @@ public class contohMethodStaticDanNonStatic {
     }
 
     public static void main(String[] args) {
-        double luasPersegi = ContohMethodStaticDanNonStatic.hitungLuasPersegi(5);
+        double luasPersegi = hitungLuasPersegi(5);
         System.out.println("Luas persegi dengan sisi 5: " + luasPersegi);
-    }
-    contohMethodStaticDanNonStatic objek = new contohMethodStaticDanNonStatic();
-    objek.tampilkanPesanSelamatDatang(nama:"john");
-    objek.hitungLuasPersegi(5);
+        contohMethodStaticDanNonStatic objek = new contohMethodStaticDanNonStatic();
+        objek.tampilkanPesanSelamatDatang("john");
+        objek.hitungLuasPersegi(5);
 
         }
 }

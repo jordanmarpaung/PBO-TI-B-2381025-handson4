@@ -1,6 +1,8 @@
+import org.w3c.dom.ls.LSOutput;
+
 public class ContohParameterMethod {
     public static int kaliDua(int angka) {
-        return angka * ;
+        return angka * 2;
     }
     public static double hitungLuasSegitiga(double alas, double tinggi) {
         return 0.5 * alas * tinggi;
@@ -9,8 +11,8 @@ public class ContohParameterMethod {
     public static void main(String[] args) {
         int hasilKaliDua = kaliDua(5);
         System.out.println("5 x 2 = " + hasilKaliDua);
-    }
-    double luasSegitiga = hitungLuasSegitiga(5);
-        sout
 
+        double luasSegitiga = hitungLuasSegitiga(5, 2);
+        System.out.println("Luas Segitiga = " + luasSegitiga);
+    }
 }
